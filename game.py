@@ -66,5 +66,5 @@ def play_game(): # основная функция
         score_board.display_score()
 
 
-if name == 'main':
+if __name__ == '__main__':
     play_game()
